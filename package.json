@@ -11,11 +11,16 @@
   },
   "dependencies": {
     "@react-native-community/cameraroll": "^4.0.2",
+    "@react-native-community/push-notification-ios": "^1.8.0",
+    "@react-native-firebase/app": "^10.5.0",
+    "@react-native-firebase/messaging": "^10.5.1",
+    "firebase-admin": "^9.4.2",
     "react": "16.13.1",
     "react-native": "0.63.4",
     "react-native-document-picker": "^4.3.0",
     "react-native-fs": "^2.16.6",
-    "react-native-image-picker": "^3.1.4"
+    "react-native-image-picker": "^3.1.4",
+    "react-native-push-notification": "^7.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
@@ -23,6 +28,7 @@
     "@react-native-community/eslint-config": "^1.1.0",
     "@types/jest": "^25.2.3",
     "@types/react-native": "^0.63.2",
+    "@types/react-native-push-notification": "^7.0.1",
     "@types/react-test-renderer": "^16.9.2",
     "babel-jest": "^25.1.0",
     "eslint": "^6.5.1",

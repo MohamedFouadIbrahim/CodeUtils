@@ -2,7 +2,8 @@
   package="com.codeutils">
 
     <uses-permission android:name="android.permission.INTERNET" />
-
+<uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
     <application
       android:name=".MainApplication"
       android:label="@string/app_name"
@@ -10,6 +11,8 @@
       android:roundIcon="@mipmap/ic_launcher_round"
       android:allowBackup="false"
       android:theme="@style/AppTheme">
+    <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationActions" />
+ 
       <activity
         android:name=".MainActivity"
         android:label="@string/app_name"
